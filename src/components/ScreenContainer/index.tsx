@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
 import { StyleSheet, View } from 'react-native'
-import { colors } from '../constants/colors'
+import { colors } from '../../constants/colors'
 
 function ScreenContainer({children}: {children: ReactNode}) {
   return (

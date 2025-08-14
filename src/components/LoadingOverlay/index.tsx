@@ -1,6 +1,6 @@
 import React from 'react';
 import { Modal, View, ActivityIndicator, StyleSheet } from 'react-native';
-import { colors } from '../constants/colors';
+import { colors } from '../../constants/colors';
 
 export function LoadingOverlay({ visible }: {visible: boolean}) {
   return (
