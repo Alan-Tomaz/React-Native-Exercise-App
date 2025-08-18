@@ -1,12 +1,10 @@
-import { Slot } from 'expo-router'
+import { Slot, Stack } from 'expo-router'
 import React from 'react'
 import { LoadingProvider, useLoading } from '../state/LoadingContext'
 import { LoadingOverlay } from '../components/LoadingOverlay';
 
 function Layout() {
-
-     const { loading } = useLoading();
-
+  
   return (
     <LoadingProvider>
          <LayoutContent/>
@@ -20,7 +18,15 @@ function LayoutContent() {
   return (
     <>
       <LoadingOverlay visible={loading} />
-      <Slot />
+      {/* <Slot /> */}
+      {/* <Stack
+        screenOptions={{
+          headerShown: false, // se quiser esconder o header
+        }}
+      /> */}
+      <Stack>
+      <Stack.Screen name="tabs" options={{ headerShown: false }} />
+      </Stack>
     </>
   );
 }

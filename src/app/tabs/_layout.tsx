@@ -14,7 +14,7 @@ function TabsLayout() {
         <Tabs.Screen 
         name="index"
         options={{
-            title:"Treino",
+            title:"Training",
             tabBarIcon: ({color, size}) => (
                 <FontAwesome6 name="dumbbell" size={size * 0.8} color={color}/>
             ),
@@ -26,7 +26,7 @@ function TabsLayout() {
         <Tabs.Screen 
         name="explore"
         options={{
-            title:"Explorar",
+            title:"Explore",
             tabBarIcon: ({color, size}) => (
                 <Ionicons name="search" size={size} color={color}/>
             ),
@@ -38,7 +38,7 @@ function TabsLayout() {
         <Tabs.Screen 
         name="history"
         options={{
-            title:"Histórico",
+            title:"History",
             tabBarIcon: ({color, size}) => (
                 <MaterialIcons name="history" size={size} color={color}/>
             ),

@@ -10,3 +10,7 @@ export interface ExerciseInterface {
   secondaryMuscles: string[];
   target: string;
 }
+
+export interface ExerciseHistoryInterface {
+  [date: string]: ExerciseInterface[];
+}
