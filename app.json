@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "Training App",
-    "slug": "training-app",
+    "name": "Exercise App",
+    "slug": "exercise-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/training-app-alt.png",
+    "icon": "./assets/images/exercise-app-alt.png",
     "scheme": "rntrainingapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/images/training-app.png",
+      "image": "./assets/images/exercise-app.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,7 +18,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/training-app.png",
+        "foregroundImage": "./assets/images/exercise-app.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
@@ -27,7 +27,7 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/training-app.png"
+      "favicon": "./assets/images/exercise-app.png"
     },
     "plugins": [
       "expo-router"

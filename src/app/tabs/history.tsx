@@ -28,7 +28,7 @@ function HistoryComponent() {
             data={Object.entries(exercisesHistory)}
             keyExtractor={([date]) => date}
              ListHeaderComponent={
-        <Text style={styles.title}>Training History</Text>
+        <Text style={styles.title}>Exercises History</Text>
     }
             renderItem={({ item }) => {
             const [date, exercises] = item;
