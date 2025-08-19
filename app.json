@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Exercise App",
-    "slug": "exercise-app",
+    "slug": "training-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/exercise-app-alt.png",
@@ -40,6 +40,7 @@
       "eas": {
         "projectId": "c295c5ac-923c-4c2c-89ac-d7e8d9c08c53"
       }
-    }
+    },
+    "owner": "alantomaz.dev"
   }
 }
